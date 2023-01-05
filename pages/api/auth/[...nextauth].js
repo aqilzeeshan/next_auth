@@ -16,6 +16,7 @@ export const options = {
       clientId: process.env.TWITTER_ID,
       clientSecret: process.env.TWITTER_SECRET        
     }),
+    //https://next-auth.js.org/providers/auth0
     Auth0Provider({
       clientId: process.env.AUTH0_CLIENT_ID,
       clientSecret: process.env.AUTH0_CLIENT_SECRET,
